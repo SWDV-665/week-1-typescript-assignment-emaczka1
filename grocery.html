@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Groceries</title>
+    </head>
+
+    <body>
+        <h1> Grocery List!</h1>
+
+        <script src="grocery.js"></script>
+        <ul>
+        <script>
+            for (const grocery of grocery_list) {
+                    document.write('<li>' + grocery.name + ' - Quantity: ' + grocery.quantity + '</li>');
+                }
+        </script>
+        </ul>
+    </body>
+</html>
